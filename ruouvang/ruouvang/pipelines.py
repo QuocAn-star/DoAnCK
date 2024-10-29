@@ -6,8 +6,28 @@
 
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
-
+import sqlite3
 
 class RuouvangPipeline:
-    def process_item(self, item, spider):
-        return item
+    def __init__(self):
+
+        self.connection = sqlite3.connect('products_wine.db')
+        self.cursor = self.connection.cursor()
+
+        #Tạo bảng
+        self.cursor.execute('''
+        Create table wines(
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT,
+        price TEXT,
+        img TEXT,
+        url TEXT,
+        wine_type TEXT,
+        grape_variety TEXT,
+        alcohol_concentration TEXT,
+        volume TEXT,
+        vintage TEXT
+        )'''
+        )
+
+
