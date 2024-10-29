@@ -16,5 +16,9 @@ class RuouSpider(scrapy.Spider):
                 'img': product.css('div.box-image-inner img::attr(src)').get(),
                 'url': product.css('a.woocommerce-LoopProduct-link::attr(href)').get(),
                 'loai_vang': product.css('li.product-attribute__item.pa_loai-vang .pa-info__value p::text').get(),
+                'giong nho':  product.css('li.product-attribute__item.pa_giong-nho .pa-info__value p::text').get(),
+                'nong do':  product.css('li.product-attribute__item.pa_nong-do .pa-info__value p::text').get(),
+                'dung tich': product.css('li.product-attribute__item.pa_dung-tich .pa-info__value p::text').get(),
+                'nien vu': product.css('li.product-attribute__item.pa_nien-vu .pa-info__value p::text').get()
             }
         pass
