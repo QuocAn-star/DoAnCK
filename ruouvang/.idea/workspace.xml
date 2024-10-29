@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2122f053-94c0-48af-9da0-397776193c42" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../report/scrapy/ebay/dmx/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report/scrapy/ebay/dmx/items.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report/scrapy/ebay/dmx/middlewares.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report/scrapy/ebay/dmx/pipelines.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report/scrapy/ebay/dmx/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report/scrapy/ebay/dmx/spiders/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report/scrapy/ebay/dmx/spiders/product.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report/scrapy/ebay/scrapy.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report/~$o cáo ĐACS (1).docx" beforeDir="false" afterPath="$PROJECT_DIR$/../report/~$o cáo ĐACS (1).docx" afterDir="false" />
-    </list>
+    <list default="true" id="2122f053-94c0-48af-9da0-397776193c42" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,22 +13,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2o6mIgdMs0i8E94nQ6nulsLpFDa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/DoAn/DoAnCK/ruouvang"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DoAn/DoAnCK/ruouvang&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
