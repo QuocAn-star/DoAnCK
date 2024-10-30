@@ -23,7 +23,8 @@ class RuouSpider(scrapy.Spider):
 
                 price = product.css('div bdi::text').get()
                 if price:
-                    price = price.replace('\xa0', '').strip()  # Loại bỏ ký tự \xa0
+                    price = price.replace('.', '').replace('\xa0', '').strip()  # Loại bỏ ký tự \xa0 và dấu chấm
+
 
                 yield {
                     'name': product.css('p a::text').get(),
